@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=VT323&display=swap');
+.App{
+  text-align: center;
+  font-size: 1.5rem;
+  word-spacing: 10px;
+}
+/* Navbar */
+.navbar1{
+  display:flex;
+  padding:0px;
+  margin:0px;
+  top: 0;
+  z-index: 80;
+  position: sticky;
+  background-color: white;
+  }
+
+  .navbarlist {  
+    column-gap: 8rem;
+    font-family: 'Josefin Sans', sans-serif;  
+    background-color: transparent;
+  }
+  .links{
+    text-decoration: none;
+    font-size: 1.5rem !important;  
+    border-bottom: 3px solid transparent !important; 
+    color: rgb(238, 123, 16) !important;
+  }
+   .links:hover{
+    border-image: linear-gradient(45deg,rgb(126, 20, 2), rgb(10, 223, 98),rgb(204, 11, 204), rgb(8, 12, 209))1 !important;
+  }  
+  /* home */
+  .firstpage,.career,.contact,.about{
+      display: flex;
+      justify-content: space-between;
+    }
+    
+  
+  .homeh1{
+    padding: 10px;
+    margin: 2rem;
+  }
+  .homeimage{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJhO4inEmNYfa6AvlCuJjr3Y37W650lyycEw&usqp=CAU');
+    background-position: center;
+    width: 50%;
+  }
+  
+  
+/* About */
+.aboutimage{
+  width: 100%;
+  height: 100%;
+  object-fit:fill;
+}
+/* career */
+.careerImage{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJhO4inEmNYfa6AvlCuJjr3Y37W650lyycEw&usqp=CAU');
+  background-position: center;
+  width: 100%;
+}
+
+.careeerDetail{
+  padding: 3rem;
+  width: 100%;
+  color: aliceblue;
+  background-color: rgb(127, 127, 143);
+}
+/* contact */
+
+.contact{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+input{
+  border-radius: 2rem;
+  text-align: center;
+}
+input:hover{
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+button{
+  background-color: rgb(198, 149, 218);
+  color: rgb(6, 7, 7);
+  border-color: rgb(198, 149, 218);
+  padding: 1rem;
+  border-style:dotted;
+}
+button:hover{
+  background-color:aliceblue;
+}
+.contactus{
+  padding:1rem;
+}
